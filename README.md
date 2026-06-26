@@ -87,6 +87,12 @@ npx playwright test tests/todo.spec.js
 
 ```
 
+* **Run a test according to tags for example smoke tests:**
+```bash
+npx playwright test --headed -g  '@smoke'
+
+```
+
 
 * **Open Playwright Test UI Mode:**
 ```bash

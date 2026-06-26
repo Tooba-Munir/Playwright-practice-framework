@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import * as dataForTest from '../utils/data.js';
 import { todoPage } from '../pages/todoPage.js';
-test('To Do MVC React App Test', async ({ page }) => {
+test('To Do MVC React App Test @smoke', async ({ page }) => {
 
   const todo = new todoPage(page);
   await todo.navigateTo(dataForTest.URL);
